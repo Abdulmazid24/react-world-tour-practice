@@ -1,7 +1,21 @@
 .country {
   border: 1px solid slategray;
   margin: 10px;
-  margin: 10px;
   padding: 10px;
   border-radius: 10px;
+}
+.img-container {
+  width: 200px;
+  height: 150px;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.visited {
+  background-color: wheat;
+}
+.no-visited {
+  background-color: fuchsia;
 }
